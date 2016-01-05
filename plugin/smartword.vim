@@ -44,10 +44,10 @@ onoremap <silent> <Plug>(smartword-b)  :<C-u>call smartword#move('b','o')<CR>
 onoremap <silent> <Plug>(smartword-e)  :<C-u>call smartword#move('e','o')<CR>
 onoremap <silent> <Plug>(smartword-ge)  :<C-u>call smartword#move('ge','o')<CR>
 
-noremap <Plug>(smartword-basic-w)  w
-noremap <Plug>(smartword-basic-b)  b
-noremap <Plug>(smartword-basic-e)  e
-noremap <Plug>(smartword-basic-ge)  ge
+noremap <unique> <Plug>(smartword-basic-w)  w
+noremap <unique> <Plug>(smartword-basic-b)  b
+noremap <unique> <Plug>(smartword-basic-e)  e
+noremap <unique> <Plug>(smartword-basic-ge)  ge
 
 
 
